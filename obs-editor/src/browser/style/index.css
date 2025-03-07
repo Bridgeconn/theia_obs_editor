@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  #widget-container h2 {
+    color: var(--theia-ui-font-color1);
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px;
+    text-transform: uppercase;
+  }
+  
+  /* Widget container with flex column layout */
+  .widget-container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 15px;
+    color: #333;
+    max-width: 300px;
+  }
+  
+  /* Widget header */
+  .widget-header {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Label styling */
+  .widget-label {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  /* Dropdown styling */
+  .widget-select {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
+    cursor: pointer;
+  }
+  
+  /* Button styling */
+  .widget-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007acc;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+
+  .widget-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    background-color: gray;
+  }
+  
+  .widget-button:hover {
+    background-color: #005fa3;
+  }
+  
+  /* Loading and error messages */
+  .widget-message {
+    font-size: 14px;
+  }
+  
+  .widget-error {
+    color: red;
+  }
+  
+  .upload-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  
+  .separator {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 15px 0;
+  }
+  
+  .separator-line {
+    flex: 1;
+    height: 2px;
+    background-color: #000;
+    border: none;
+  }
+  
+  .file-input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
